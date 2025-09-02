@@ -19,6 +19,14 @@ public class TicketMachine
     private int total;
 
     /**
+     * Return the price of a ticket.
+     */
+    public int getPrice()
+    {
+        return price;
+    }
+
+    /**
      * Create a machine that issues tickets of the given price.
      * Note that the price must be greater than zero, and there
      * are no checks to ensure this.
@@ -28,14 +36,6 @@ public class TicketMachine
         price = cost;
         balance = 0;
         total = 0;
-    }
-
-    /**
-     * Return the price of a ticket.
-     */
-    public int getPrice()
-    {
-        return price;
     }
 
     /**
