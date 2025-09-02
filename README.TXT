@@ -91,7 +91,17 @@ of the class?
 
 the 2 main features is that the name of the constructor will alaway be the same as the class name and theres no return type.
 
+12. Given that the type of the price field is int, what do you think is the type of each of the following fields? anwsers is in ()
 
+private (int) count;
+private (Student) representative;
+private (Server) host;
+
+13. What are the names of the following fields? anwsers is in ()
+
+private boolean (alive);
+private Person (tutor);
+private Game (game);
 
 
 
