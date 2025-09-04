@@ -106,7 +106,7 @@ private Game (game);
 14. From what you know about the naming conventions for classes, which of the type names in Exercises
 2.12 and 2.13 would you say are class names?
 
-******
+Student Server Person and Game.
 
 15. In the following field declaration from the TicketMachine class private int price; does it matter which
 order the three words appear in? Edit the TicketMachine class to try different orderings. After each
@@ -114,4 +114,24 @@ change, close the editor. Does the appearance of the class diagram after each ch
 whether other orderings are possible? Look at any error messages that the editor shows you by moving
 the cursor over the error indicator. Make sure that you reinstate the original version after your
 experiments!
+
+yes identifier expected is the error when i put int after price. same thing is said when int is put as the first word.
+when private is at end it says both expected ; and illegal start of type. other ordering are not possible.
+
+16. Is it always necessary to have a semicolon at the end of a field declaration? Once again, experiment via the
+editor. The rule you will learn here is an important one, so be sure to remember it.
+
+it is alwasy necessary to have a semicolon at the end of a field.*** important to remember ***
+
+17. Write in full the declaration for a field of type int whose name is status.
+
+private int status; is the anwser.
+
+18. To what class does the following constructor belong? public Student(String name)
+
+anwser is Student.
+
+19. How many parameters (inside the parentheses after Book) does the following constructor have, and what are their types?
+
+public Book(String title, double price) Book is the constructor and String is the type. there are 2 parameters.
 
