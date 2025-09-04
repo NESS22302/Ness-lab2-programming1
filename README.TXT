@@ -103,5 +103,15 @@ private boolean (alive);
 private Person (tutor);
 private Game (game);
 
+14. From what you know about the naming conventions for classes, which of the type names in Exercises
+2.12 and 2.13 would you say are class names?
 
+******
+
+15. In the following field declaration from the TicketMachine class private int price; does it matter which
+order the three words appear in? Edit the TicketMachine class to try different orderings. After each
+change, close the editor. Does the appearance of the class diagram after each change give you a clue as to
+whether other orderings are possible? Look at any error messages that the editor shows you by moving
+the cursor over the error indicator. Make sure that you reinstate the original version after your
+experiments!
 
