@@ -135,3 +135,31 @@ anwser is Student.
 
 public Book(String title, double price) Book is the constructor and String is the type. there are 2 parameters.
 
+20. Do you think the values of the constructor’s parameters will need to be stored somewhere persistent? Can
+you guess what types some of the Book class’s fields might be, from the parameters in its constructor?
+Can we know anything for sure about the names of its fields?
+
+no. the types are price and number of books. the name of its fields are anything after book.
+
+21. Suppose that the class Pet has a field called name that is of type String. Write an assignment statement
+in the body of the following constructor so that the name field will be initialized with the value of the
+constructor’s parameter.
+public Pet(String petsName)
+{
+ ...
+}
+
+there is 1 parameter.
+
+
+
+
+
+
+
+
+
+
+
+
+
