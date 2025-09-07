@@ -141,7 +141,7 @@ Can we know anything for sure about the names of its fields?
 
 no. the types are price and number of books. the name of its fields are anything after book.
 
-21. Suppose that the class Pet has a field called name that is of type String. Write an assignment statement
+21. Suppose that the class Pet has a field called Name that is of type String. Write an assignment statement
 in the body of the following constructor so that the name field will be initialized with the value of the
 constructor’s parameter.
 public Pet(String petsName)
@@ -149,17 +149,101 @@ public Pet(String petsName)
  ...
 }
 
-there is 1 parameter.
+there is 1 parameter.*******
 
+22. Challenge exercise The following object creation will result in the constructor of the Date class being
+called. Can you write the constructor’s header? Try to give meaningful names to the parameters.
+new Date("March", 23, 1861)
 
+my anwser is new Date("January", 1, 2026) New Years
 
+23. Compare the header and body of the getBalance method with the header and body of the getPrice
+method. What is the one difference between the headers and the one difference between the bodies?
 
+the names of the headers and the body each read different files.
 
+24. If a call to getPrice can be characterized as “What do tickets cost?” how would you characterize a call to
+getBalance?
 
+how many tickets are there.
 
+25. If the name of getBalance is changed to getAmount, does the return statement in the body of the
+method also need to be changed for the code to compile? Try it out within BlueJ. What does this tell you
+about the name of an accessor method and the name of the field associated with it?
 
+in BlueJ when changed and then compiled there is no error to the code it is the same as it was before.
 
+26. Add the getter method getTotal to the class TicketMachine to return the value of the total field. Check
+that you have done this correctly by calling the method when there are different amounts in the total
+field.
 
+no error is shown.
+
+27. Try removing the return statement from the body of getPrice. What error message do you see now when
+you try compiling the class?
+
+when removing the return statement and compiling it it shows error and says not a statement.
+
+28. Compare the method headers of getPrice and printTicket from the TicketMachine class. Apart from
+their names, what is the main difference between them?
+
+each body does a different code ones prints one shows the price without printing the other prints everything.
+
+29. Do the insertMoney and printTicket methods have return statements? Why do you think this might be?
+
+no. because actions dont return a value.
+
+30. Create a ticket machine with a ticket price of your choosing. Before doing anything else, call the
+getBalance method on it. Now call the insertMoney method and give a non-zero positive amount of
+money as the actual parameter. Now call getBalance again. The two calls to getBalance should show
+different outputs, because the call to insertMoney had the effect of changing the machine’s state via its
+balance field.
+
+yes the ballance number changes when the insert money changes depending on how much the cost of a ticket is.
+
+31. Complete the body of the following method, whose purpose is to add the value of its parameter to a field
+named score.
+/**
+* Increase score by the given number of points.
+*/
+public void increaseScore(int points)
+{
+// TODO: Increase score by the value in points.
+}
+
+******
+
+32. The addCredits method is from the Student class in the lab-classes project from Chapter 1:
+public void addCredits(int additionalPoints)
+{
+credits += additionalPoints;
+}
+Is the addCredits method a mutator/action? If so, how could you demonstrate that with a Student object? Try
+it out.
+
+yes. by adding the amount of homework the student has to do.
+
+33. Complete the following method, whose purpose is to subtract the value of its parameter from a field
+named price.
+/**
+* Reduce price by the given amount.
+*/
+public void discount(int amount)
+{
+// TODO: Subtract amount from price.
+}
+
+******
+
+34. Write a setter method for a field called age which is of type int. Give the parameter the name
+currentAge.
+
+setAge currentAge. ******
+
+35. Write a setter method for the following field:
+private boolean alive;
+
+******
 
 
 
